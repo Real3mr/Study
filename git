@@ -3,6 +3,8 @@
 echo "input commit message"
 read var
 
+chmod +x $var
+
 git add .
 git commit -m "${var}"
 git push
